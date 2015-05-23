@@ -1,0 +1,24 @@
+/*button{
+	  padding: 5px;
+	  background-color: #444444;
+	  border: none;
+	  color: white;
+	  text-transform: uppercase;
+	  z-index: 9999999999;
+}*/
+
+.purple{
+	background:#cb3594;
+}
+
+.green{
+	background:#659b41;
+}
+
+.yellow{
+	background:#ffcf33;
+}
+
+.brown{
+	background:#986928;
+}
