@@ -1,4 +1,4 @@
-$.fn.drawing = function(){
+$.fn.draw = function(){
 
 	var canvasWidth = screen.width;
 	var canvasHeight = screen.height;
@@ -21,11 +21,11 @@ $.fn.drawing = function(){
 		buttonContainer.append('<button id="clear">Clear</button>');
 		// console.log('clear');
 		buttonContainer.append('<button data-hex="#ffcf33">Yellow</button>');
-		buttonContainer.append('<button data-hex="#659b41">Green</button>');
+		buttonContainer.append('<button data-hex="#A6CF65">Green</button>');
 		buttonContainer.append('<button data-hex="#cb3594">Purple</button>');
 		// console.log('button clicked');
 		$('body').append(buttonContainer);
-		$('#buttons').show().css({"z-index":"9999999999" ,"position":"relative", "top":"0", "display":"inline-block"});
+		$('#buttons').show().css({"z-index":"9999999999" ,"position":"absolute", "top":"92%", "margin-left":"3%" });
 		$('#canvas').show().css({"position":"absolute","top":"0"});
 		
 

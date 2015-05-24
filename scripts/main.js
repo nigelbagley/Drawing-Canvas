@@ -1,0 +1,1 @@
+$('#drawingStuff').draw();
